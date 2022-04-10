@@ -64,7 +64,7 @@ spec:
         container('kubectl') {
           
           sh "gcloud container clusters get-credentials hipstar --zone us-central1-c --project srinag"
-          sh "kubectl apply -f frontendservice.yaml"
+          sh "kubectl apply -f frontend.yaml"
         }
       }
     }
