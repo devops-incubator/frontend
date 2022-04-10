@@ -30,12 +30,12 @@ spec:
     - cat
     tty: true
   - name: gcloud
-    image: gcr.io/stackdriver-sandbox-230822/sandbox/frontend:v0.7.6
+    image:  google/cloud-sdk/gcloud
     command:
     - cat
     tty: true
   - name: kubectl
-    image: google/cloud-sdk
+    image: google/cloud-sdk/kubectl
     command:
     - cat
     tty: true
