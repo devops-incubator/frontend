@@ -35,7 +35,7 @@ spec:
     - cat
     tty: true
   - name: kubectl
-    image: google/cloud-sdk/kubectl
+    image: google/cloud-sdk
     command:
     - cat
     tty: true
