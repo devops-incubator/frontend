@@ -30,12 +30,12 @@ spec:
     - cat
     tty: true
   - name: gcloud
-    image: gcr.io/cloud-builders/gcloud
+    image: gcr.io/google.com/cloudsdktool/cloud-sdk
     command:
     - cat
     tty: true
   - name: kubectl
-    image: gcr.io/cloud-builders/kubectl
+    image: google/cloud-sdk
     command:
     - cat
     tty: true
